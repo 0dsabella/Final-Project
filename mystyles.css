@@ -6,6 +6,25 @@
     width: 100%;
 }
 
+.hotel{
+    background-color: aqua;
+    font-size: 35px;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+}
+
+.left{
+}
+
+.center{
+    float: center;
+}
+
+.right{
+    float: right;
+}
+
 .container{
     overflow: hidden;
 }
@@ -40,4 +59,9 @@
 .btn.active{
     background-color: red;
     color: white;
+}
+
+.lookalikelink{
+    color: blue;
+    text-decoration: underline;
 }
