@@ -14,16 +14,26 @@
     text-align: center;
 }
 
-.left{
-}
-
-.center{
-    float: center;
-}
-
 .right{
     float: right;
 }
+.left{
+    float: left;
+}
+.column{
+    float: left;
+    width: 33.33%;
+}
+.row:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.container{
+    float: left;
+    color: white;
+}
+
 
 .container{
     overflow: hidden;
