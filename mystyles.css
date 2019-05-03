@@ -7,22 +7,21 @@
 }
 
 .hotel{
-    background-color: aqua;
     font-size: 35px;
     height: 75px;
-    width: 100%;
+    
     text-align: center;
 }
 
-.right{
-    float: right;
-}
 .left{
     float: left;
 }
 .column{
-    float: left;
-    width: 33.33%;
+    width: 33.3%;
+}
+.row{
+    background-color: aqua;
+    width: 100%;
 }
 .row:after{
     content: '';
@@ -30,48 +29,9 @@
     clear: both;
 }
 .container{
-    float: left;
-    color: white;
+   width: 33.3%;
+   height: auto;
+   background-color: aqua;
 }
 
 
-.container{
-    overflow: hidden;
-}
-
-.filterDiv{
-    float: left;
-    background-color: rebeccapurple;
-    color: royalblue;
-    width: 100px;
-    line-height: 100px;
-    text-align: center;
-    margin: 2px;
-    display: none;
-}
-
-.show{
-    display: block;
-}
-
-.btn{
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: yellow;
-    cursor: pointer;
-}
-
-.btn:hover{
-    background-color: goldenrod
-}
-
-.btn.active{
-    background-color: red;
-    color: white;
-}
-
-.lookalikelink{
-    color: blue;
-    text-decoration: underline;
-}
