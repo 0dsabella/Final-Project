@@ -5,7 +5,12 @@
     height: 80px;
     width: 100%;
 }
-
+.subHeader{
+    font-size: 35px;
+    height: 40px;
+    width: 70%;
+    background-color: lightgreen;
+}
 .hotel{
     font-size: 35px;
     height: 75px;
@@ -55,7 +60,7 @@ body{
     text-align: center;
 }
 .container3{
-    width: 50%;
+    width: 100%;
     background-color:lightgreen;
 }
 .skills{
@@ -63,7 +68,7 @@ body{
     padding:10px;
     color:white;
 }
-.comfort {width: 60%; background-color: #4CAF50;}
-.price {width: 70%; background-color: #2196F3;}
-.something {width: 45%; background-color: #f44336;}
-.service {width: 50%; background-color: #808080;}
+.comfort {width: 90%; background-color: green;}
+.price {width: 80%; background-color: blue;}
+.location {width: 65%; background-color: red;}
+.services {width: 60%; background-color: grey;}
