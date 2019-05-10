@@ -68,7 +68,17 @@ body{
     padding:10px;
     color:white;
 }
-.comfort {width: 90%; background-color: green;}
-.price {width: 80%; background-color: blue;}
-.location {width: 65%; background-color: red;}
-.services {width: 60%; background-color: grey;}
+.comfort1 {width: 90%; background-color: green;}
+.price1 {width: 80%; background-color: blue;}
+.location1 {width: 65%; background-color: red;}
+.services1 {width: 60%; background-color: grey;}
+
+.comfort2 {width: 70%; background-color: green;}
+.price2 {width: 70%; background-color: blue;}
+.location2 {width: 45%; background-color: red;}
+.services2 {width: 70%; background-color: grey;}
+
+.comfort3 {width: 75%; background-color: green;}
+.price3 {width: 90%; background-color: blue;}
+.location3 {width: 55%; background-color: red;}
+.services3 {width: 90%; background-color: grey;}
