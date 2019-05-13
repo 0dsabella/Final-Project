@@ -6,11 +6,13 @@
     width: 100%;
 }
 .subHeader{
-    font-size: 35px;
-    height: 40px;
-    width: 70%;
+    font-size: 45px;
+    height: 70px;
+    width: 100%;
     background-color: lightgreen;
+    text-align: center;
 }
+
 .hotel{
     font-size: 35px;
     height: 75px;
@@ -45,18 +47,16 @@ body{
     padding: 64px;
 }
 .column-66{
-    float: left;
-    width: 66.6%;
-    padding: 20px;
+    height: 35px;
+    width: 100%;
+    margin: 20px;
 }
 .column-33{
-    float: left;
-    width: 33.3%;
+    width: 100%;
     padding: 20px;
 }
 .column-66,
 .column-33{
-    width: 100%;
     text-align: center;
 }
 .container3{
@@ -67,6 +67,16 @@ body{
     text-align:right;
     padding:10px;
     color:white;
+}
+#cart{
+    padding: 16px;
+    border: 2px solid lightgreen;
+    width: 600px;
+    margin: 0 auto;
+}
+#cart > select,
+#cart > input{
+    margin-right: 16px;
 }
 .comfort1 {width: 90%; background-color: green;}
 .price1 {width: 80%; background-color: blue;}
@@ -82,3 +92,4 @@ body{
 .price3 {width: 90%; background-color: blue;}
 .location3 {width: 55%; background-color: red;}
 .services3 {width: 90%; background-color: grey;}
+

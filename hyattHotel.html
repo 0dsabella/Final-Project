@@ -13,7 +13,7 @@
     </div>
     <div class = "container2">
         <div class = "row">
-            <div class = "column-66 subHeader">
+            <div class = "subHeader">
                 User Ratings
                 <p class = "hotel">Comfort</p>
                     <div class="container1">
@@ -32,19 +32,31 @@
                     <div class="container1">
                         <div class="skills services3">90%</div>
                     </div>
-            </div>
-            <div class = "column-33">
+                    <div class = "subHeader">
+                        Rent-A-Room
+                        <form id = "cart" class "row" method="GET" action="boot.html" oninput="calculate()">
+                                Options:
+                                <select name="option" id="option">
+                                  <option value="14.95">Buy A</option>
+                                  <option value="12.95">Buy B</option>
+                                  <option value="18.95">Buy C</option>
+                                </select>
+                                Months: <input id="time" name="time" type="number" value="12" min="0">
+                                Total: <output id="result" name="out" for="option time">
+                                  <input type="submit" value="Submit">
+                        </form>
+                    </div>
             </div>
         </div>
     </div>
-    <div class = "container2">
-        <div class = "row">
-            <div class = "column-66">
-            </div>
-            <div class = "column-33">
-                
-            </div>
-        </div>
-    </div>
+    <script>
+            function calculate(){
+              let doc = document;
+              let option = doc.getElementById("option");
+              let time = doc.getElementById("time");
+              let result = doc.getElementById("result");
+              result.value = "$" + Number(parseFloat(option.value) * parseInt(time.value)).toPrecision(5);
+            }
+    </script>
 </body>
 </html>
